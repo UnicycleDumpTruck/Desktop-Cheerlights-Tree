@@ -45,7 +45,7 @@ const byte PURPLE[] = {100, 255, 160};
 static uint16_t c;
 
 // Local Network Settings
-byte mac[] = { 0xD4, 0x28, 0xB2, 0xFF, 0xDB, 0x54 }; // Must be unique on local network
+byte mac[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }; // Must be unique on local network
 
 // ThingSpeak Settings
 char thingSpeakAddress[] = "api.thingspeak.com";
